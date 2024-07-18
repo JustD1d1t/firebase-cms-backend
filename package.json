@@ -1,0 +1,37 @@
+{
+  "name": "binance-backend",
+  "version": "1.0.0",
+  "description": "\"Edit me later\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app/index.js -e js,json"
+  },
+  "author": "tidid",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.3",
+    "firebase-admin": "^12.2.0",
+    "firebase-functions": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.2.6",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.15",
+    "qs": "^6.11.0"
+  },
+  "keywords": []
+}
